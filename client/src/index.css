@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700&family=Noto+Sans+Thai:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+	font-family: 'Noto Sans Thai', sans-serif;
+	color: #20222d;
+	background: #f3f0e8;
+}
+
+.font-display {
+	font-family: 'Kanit', sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; }
+button, a { -webkit-tap-highlight-color: transparent; }
